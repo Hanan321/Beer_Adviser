@@ -9,11 +9,4 @@
         <item>brown</item>
         <item>dark</item>
     </string-array>
-    <string-array name="beer_types">
-        <item>beer1</item>
-        <item>beer2</item>
-        <item>beer3</item>
-        <item>beer4</item>
-    </string-array>
-
 </resources>
