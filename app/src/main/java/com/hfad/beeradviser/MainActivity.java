@@ -70,5 +70,3 @@ public class MainActivity extends Activity {
         //final Button findBeer = findViewById(R.id.find_beer);
 
 
-        //git hub token!
-        //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
