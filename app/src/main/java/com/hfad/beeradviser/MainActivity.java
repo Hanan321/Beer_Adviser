@@ -2,7 +2,7 @@ package com.hfad.beeradviser;
 
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
+//import android.widget.Button;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.app.Activity;
@@ -10,7 +10,7 @@ import java.util.List;
 
 public class MainActivity extends Activity {
 
-    private BeerExpert expert = new BeerExpert();
+    final private BeerExpert expert = new BeerExpert();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,7 +21,8 @@ public class MainActivity extends Activity {
 
     public void onClickFindBeer(View view){
 
-        final Button findBeer = findViewById(R.id.find_beer);
+             //get reference to the Button
+            //final Button findBeer = findViewById(R.id.find_beer);
 
             //get reference to the TextView
             TextView brands = (TextView) findViewById(R.id.brands);
@@ -31,9 +32,6 @@ public class MainActivity extends Activity {
 
             //Get the selected item in the spinner
             String beerType =String.valueOf(color.getSelectedItem());
-
-            //display the selected item
-           /* brands.setText(beerType);*/
 
             //Get recommendation from BeerExpert class
             List<String> brandList = expert.getBrands(beerType);
@@ -69,3 +67,8 @@ public class MainActivity extends Activity {
 
             }
         });*/
+
+         //display the selected item
+         /* brands.setText(beerType);*/
+
+//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 git hub token!
