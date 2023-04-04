@@ -1,8 +1,6 @@
 package com.hfad.beeradviser;
-
 import android.os.Bundle;
 import android.view.View;
-//import android.widget.Button;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.app.Activity;
@@ -18,11 +16,8 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
 
     }
-
+    //This method (onClickFindBeer) refer to tne button
     public void onClickFindBeer(View view){
-
-             //get reference to the Button
-            //final Button findBeer = findViewById(R.id.find_beer);
 
             //get reference to the TextView
             TextView brands = (TextView) findViewById(R.id.brands);
@@ -63,12 +58,17 @@ public class MainActivity extends Activity {
                 TextView brands = (TextView) findViewById(R.id.brands);
                 //brands.setText(beerTypes);//??Error
                 String.valueOf(beerColors.getSelectedItem());
-
-
             }
         });*/
+
 
          //display the selected item
          /* brands.setText(beerType);*/
 
-//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 git hub token!
+
+        //get reference to the Button
+        //final Button findBeer = findViewById(R.id.find_beer);
+
+
+        //git hub token!
+        //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
